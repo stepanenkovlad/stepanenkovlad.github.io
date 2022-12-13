@@ -1,35 +1,18 @@
 @import 'libs/bootstrap-reboot.min';
 
+@import 'base/variables';
+
+@import 'blocks/text';
+
 * {
     font-family: 'HelveticaNeueCyr', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.t11r {
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    &__black {
-        color: black;
-    }
-}
-
-.t22m {
-    font-weight: 550;
-    font-size: 22px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.t18l {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.5;
+.container {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 body {
@@ -42,42 +25,45 @@ body {
         text-decoration: none;
         &:hover {
             text-decoration: none;
-            color:white;
+            color: $main-text;
         }
     }
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    a {
-        img {
-            width: 72px;
-        }
-    }
-}
-
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.dee {
-    padding: 0;
 }
 
 .main {
-    padding: 40px 65px 0 65px;
-    background-color: #333333;
-    height: 90vh;
+    padding: 45px 55px 0 55px;
+    background-color: white;
+    height: 100vh;
     position: relative;
-    &__link {
-        position: absolute;
-        bottom: 100px;
-        left: 50%;
-        transform: translateX(-50%); 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         a {
+            img {
+                height: 42px;
+            }
+        }
+    }
+    &__center {
+        height: calc(100% - 113px);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    &__link {
+        display: block;
+        height: 600px;
+        img {
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%); 
             font-weight: 700;
             font-size: 26px;
             line-height: 80px;
@@ -165,7 +151,7 @@ header {
             a {
                 margin-right: 10px;
                 img {
-                    height: 43px;
+                    height: 35px;
                 }
             }
         }
