@@ -1,0 +1,81 @@
+.item {
+    padding-bottom: 80px;
+    .container {
+        display: flex;
+        
+        justify-content: space-between;
+        padding: 0 70px;
+    }
+
+    &__descr {
+        width: 400px;
+    }
+
+    &__img {
+        object-fit: cover;
+        height: 760px;
+        width: 100%;
+    }
+
+    &__price {
+        margin-top: 25px;
+    }
+
+    &__btn {
+        margin-top: 25px;
+        width: 220px;
+        height: 50px;
+        background: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        text-transform: uppercase;
+        border: none;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__text {
+        margin-top: 30px;
+        width: 350px;
+        span {
+            font-weight: 700;
+        }
+    }
+    
+    &__carousel {
+        position: relative;
+        width: 55%;
+        margin-right: 50px; 
+        .slick-arrow {
+            &:before {
+                color: blue;
+                font-size: 35px;
+            }
+        }
+        .prev {
+            position: absolute;
+            left: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            height: 40px;
+            width: 30px;
+            cursor: pointer;
+        }
+        .next {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            height: 40px;
+            width: 30px;
+            cursor: pointer;
+        }
+    }
+}

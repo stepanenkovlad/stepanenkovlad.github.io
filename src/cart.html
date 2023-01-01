@@ -8,32 +8,90 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="main">
+    <section class="main main__catalog">
         <header class="header">
-            <a class="header__logo" href="index.html">
-                <img src="/img/1.svg" alt="logo"/>
+            <a href="index.html">
+                <img src="/img/1.svg" alt="logo" />
             </a>
-            <a class="t11r header__cart" href="cart.html">корзина</a>
+            <a class="t11r header__cart" href="cart">корзина</a>
         </header>
-        <ul class="side-panel">
-            <li><a href="#" class="category t11r">мужское</a></li>
-            <li><a href="#" class="category t11r">женское</a></l>
-            <li>
-                <a href="#" class="category t11r">аксессуары</a>
-            </li>
-            <div class="sub-categories">
-                <li>
-                    <a href="#" class="category t11r">все коллекции</a>
-                </li>
-                <li>
-                    <a href="#" class="category t11r">о бренде</a>
-                </li>
+    </section>
+
+    <section class="cart">
+        <div class="container">
+            <div class="cart__wrapper">
+
+                <div class="cart__title t22m">корзина</div>
+
+                <div class="cart__items">
+
+                    <div class="cart-item">
+                        <img src="img/model.jpg" alt="">
+                        <div class="cart-item__text">
+                            <div class="cart-item__title t22m">пуховик №1002</div>
+                            <div class="cart-item__price t18l">32000 руб.</div>
+                            <div class="cart-item__size t11b">Размер: L</div>
+                        </div>
+                        <button class="cart-item__close"><img src="img/close-svgrepo-com.svg" alt=""></button>
+                    </div>
+
+                    <div class="cart-item">
+                        <img src="" alt="">
+                        <div class="cart-item__title"></div>
+                        <div class="cart-item__price"></div>
+                        <div class="cart-item__size"></div>
+                        <button class="cart-item__close"></button>
+                    </div>
+
+                </div>
+
+                <form action="#" class="cart__form">
+                    <label class="text-label t11r">имя
+                        <input required placeholder="Иван" type="text" name="username">
+                    </label>
+                    <label class="text-label t11r">фамилия
+                        <input required placeholder="Иванов" type="text" name="usersurname">
+                    </label>
+                    <label class="text-label t11r">e-mail
+                        <input required placeholder="ivanov_ivan@gmail.com" type="email" name="useremail">
+                    </label>
+                    <label class="text-label t11r">телефон
+                        <input required placeholder="+7 (999) 999-99-99" type="tel" name="usertel">
+                    </label>
+
+                    <div class="t11r cart__way">
+                        способ доставки
+                    </div>
+
+                    <label class="radio-label t11r l">
+                        <input type="radio" name="delivery"><div></div>ДОСТАВКА СДЭК
+                    </label>
+                    <label class="radio-label t11r l">
+                        <input checked type="radio" name="delivery"><div></div>САМОВЫВОЗ ИЗ МАГАЗИНА
+                    </label>
+                    <label class="radio-label t11r l">
+                        <input type="radio" name="delivery"><div></div>ДОСТАВКА ПОЧТОЙ РОССИИ
+                    </label>
+                    <label class="radio-label t11r l">
+                        <input type="radio" name="delivery"><div></div>курьером в пределах МКАД
+                    </label>
+
+                    <div class="t11r cart__way">
+                        способ оплаты
+                    </div>
+
+                    <label class="radio-label t11r l">
+                        <input checked type="radio" name="payment"><div></div>ОПЛАТА ОНЛАЙН
+                    </label>
+                    <label class="radio-label t11r l">
+                        <input checked type="radio" name="payment"><div></div>оплата при получении
+                    </label>
+
+                    <button class="t11r b">оформить заказ</button>
+                </form>
+
             </div>
-        </ul>
-        <a class="main__link" href="catalog.html">
-            <img src="img/model.jpg" alt="Model">
-            <p>explore collection</p>
-        </a>
+        </div>
     </section>
 
     <footer class="footer">
@@ -93,8 +151,5 @@
             </a>
         </div>
     </footer>
-
-
-
 </body>
 </html>
