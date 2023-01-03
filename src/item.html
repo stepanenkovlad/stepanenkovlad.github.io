@@ -16,8 +16,8 @@
             <a href="index.html">
                 <img src="/img/1.svg" alt="logo" />
             </a>
-            <a class="t11r header__cart" href="#">корзина</a>
         </header>
+        <a class="t11r header__cart" href="cart.html">корзина</a>
     </section>
     
     <div class="item">
@@ -31,7 +31,23 @@
             <div class="item__descr">
                 <div class="item__title t22m">SINGLE-BREASTED TUXEDO JACKET IN GRAIN DE POUDRE</div>
                 <div class="item__price t18l">32000 руб.</div>
-                
+                <div class="item__size t11r b">размер:</div>
+
+                <div class="select">
+                    <a href="javascript:void(0);" class="slct t11r">Выбрать размер
+                        <img src="icons/down-arrow.svg" alt="">
+                    </a>
+                    
+                    <ul class="drop">
+                        <li><a class="t11r" data-znach="dk">Выбрать размер</a></li>
+                        <li><a class="t11r" data-znach="s">s</a></li>
+                        <li><a class="t11r" data-znach="m">m</a></li>
+                        <li><a class="t11r" data-znach="l">l</a></li>
+                        <li><a class="t11r" data-znach="xl">xl</a></li>
+                    </ul>
+                    <input type="hidden" id="select">
+                </div>
+
                 <button class="item__btn">в корзину</button>
                 <div class="item__text t11r"><span>о товаре:</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem, ipsam sunt quas, repellendus iure quisquam excepturi incidunt odio laudantium illum porro deleniti ducimus ratione quo numquam possimus veritatis magnam.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur maxime sed eum, eligendi laborum ex totam pariatur doloribus magni, ratione inventore quisquam veritatis dignissimos. Iure doloribus dignissimos unde vel.
                 </div>

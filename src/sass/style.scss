@@ -48,7 +48,6 @@ body {
     header {
         z-index: 10;
         position: fixed;
-        width: calc(100% - 110px);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -97,6 +96,22 @@ body {
     }
 }
 
+.header {
+    &__cart {
+        position: absolute;
+        z-index: 100;
+        height: 42px;
+        top: 45px;
+        right: 55px;
+        display: flex;
+        align-items: center;
+        &-hidden {
+            display: none;
+        }
+    }
+    
+}
+
 .side-panel {
     margin: 0;
     margin-top: 30px;
@@ -116,3 +131,5 @@ body {
         list-style: none;
     }
 }
+
+@import 'blocks/media';

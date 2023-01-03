@@ -1,0 +1,158 @@
+@media (max-width: 1919px) {
+    * {
+        font-size: 12px;
+    }
+    .main {
+        padding: 30px 40px 0 40px;
+        &__link {
+            p {
+                font-size: 1.8em;
+            }
+        }
+    }
+    .header {
+        &__cart {
+            height: 31.5px;
+            top: 30px;
+            right: 40px;
+        }
+    }
+
+    .footer {
+        height: 120px;
+    }
+}
+
+@media (max-width: 1199px) {
+    * {
+        font-size: 10px;
+    }
+    .main {
+        padding: 25px 35px 0 35px;
+    }
+    .header {
+        &__cart {
+            height: 26.25px;
+            top: 25px;
+            right: 35px;
+        }
+    }
+
+    .footer {
+        padding: 0 35px;
+        &-line {
+            &__text {
+                width: 530px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    * {
+        font-size: 9px;
+    }
+
+    .footer {
+        height: 100px;
+        &-line {
+            &__text {
+                width: 370px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        font-size: 12px;
+    }
+    .mobile-h-wrapper {
+        padding: 0 20px;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        height: 60px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .main {
+        padding: 0;
+        height: auto;
+        header {
+            position: static;
+            height: 100%;
+        }
+        &__link {
+            padding-top: 60px;
+            display: block;
+            width: 100%;
+            position: static;
+            height: 100%;
+            transform: translate(0%, 0%);
+            img {
+                width: 100%;
+            }
+            p {
+                font-size: 2em;
+            }
+        }
+    }
+    .header {
+        
+        &__cart {
+            display: none;
+            &-hidden {
+                display: block;
+            }
+        }
+    }
+
+    .footer {
+        height: auto;
+        border: none;
+        &-line {
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            &__logo {
+                order: 1;
+                width: auto;
+                margin-top: 10px;
+            }
+            &__text {
+                order: 2;
+                margin: 15px 0;
+            }
+            &__links {
+                order: 3;
+                width: auto;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 577px) {
+    .main {
+        &__link {
+            p {
+                width: 100%;
+                text-align: center;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    .footer {
+        &-line {
+            &__text {
+                flex-direction: column;
+                width: auto;
+                div {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
