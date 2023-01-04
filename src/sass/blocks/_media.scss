@@ -123,11 +123,20 @@
             &__text {
                 order: 2;
                 margin: 15px 0;
+                flex-wrap: wrap;
             }
             &__links {
                 order: 3;
                 width: auto;
                 margin-bottom: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
             }
         }
     }
@@ -136,6 +145,7 @@
 @media (max-width: 577px) {
     .main {
         &__link {
+            height: 100vh;
             p {
                 width: 100%;
                 text-align: center;
@@ -147,12 +157,21 @@
     .footer {
         &-line {
             &__text {
-                flex-direction: column;
-                width: auto;
+                width: 100%;
+                justify-content: center;
                 div {
+                    margin: 0 6px;
                     text-align: center;
+                    li {
+                        a {
+                            line-height: 2.5em;
+                        }
+                    }
                 }
             }
+        }
+        .div-order-2 {
+            order: 2;
         }
     }
 }
