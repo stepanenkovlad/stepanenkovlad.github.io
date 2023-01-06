@@ -14,7 +14,7 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
-}
+}   
 
 .container {
     width: 1140px;
@@ -102,7 +102,7 @@ body {
 
 .header {
     &__cart {
-        position: absolute;
+        position: fixed;
         z-index: 100;
         height: 42px;
         top: 45px;

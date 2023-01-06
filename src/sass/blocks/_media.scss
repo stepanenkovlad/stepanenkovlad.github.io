@@ -17,13 +17,21 @@
             right: 40px;
         }
     }
+    .catalog {
+        &__wrapper {
+            padding-top: 65px;
+        }
+        &-card {
+            grid-template-rows: 430px auto;
+        }
+    }
 
     .footer {
         height: 120px;
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
     * {
         font-size: 10px;
     }
@@ -37,6 +45,18 @@
             right: 35px;
         }
     }
+    .container {
+        width: 890px;
+    }
+    .catalog {
+        &__wrapper {
+            padding-top: 55px;
+            gap: 40px;
+        }
+        &-card {
+            grid-template-rows: 380px auto;
+        }
+    }
 
     .footer {
         padding: 0 35px;
@@ -48,10 +68,23 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     * {
         font-size: 9px;
     }
+    .container {
+        width: 100%;
+    }
+    .catalog {
+        &__wrapper {
+            padding: 50px 10px 0 10px;
+            gap: 30px;
+        }
+        &-card {
+            grid-template-rows: 350px auto;
+        }
+    }
+
 
     .footer {
         height: 100px;
@@ -63,7 +96,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     * {
         font-size: 12px;
     }
@@ -99,12 +132,20 @@
         }
     }
     .header {
-        
         &__cart {
             display: none;
             &-hidden {
                 display: block;
             }
+        }
+    }
+    .catalog {
+        &__wrapper {
+            grid-template-columns: repeat(2,auto);
+            padding: 50px 20px 0 20px;
+        }
+        &-card {
+            grid-template-rows: 400px auto;
         }
     }
 
@@ -169,16 +210,17 @@
             }
         }
     }
+    .catalog {
+        &__wrapper {
+            grid-template-columns: auto;
+        }
+    }
 
     .footer {
         &-line {
             &__text {
                 width: 100%;
                 justify-content: center;
-                // &:nth-child(2) {
-                //     page-break-after: always;
-                //     break-after: always;
-                // }
                 &::after {
                     content:'';
                     width:100%;
@@ -195,9 +237,6 @@
                 }
             }
         }
-        // .div-order-2 {
-        //     order: 2;
-        // }
     }
     .footer-line__item.new-string,
     .footer-line__item.new-string ~ .footer-line__item {
