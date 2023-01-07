@@ -9,24 +9,27 @@
 </head>
 <body>
     <section class="main main__catalog">
-        <header class="header">
-            <a href="index.html">
-                <img src="/img/1.svg" alt="logo" />
-            </a>
-        </header>
-        <a class="t11r header__cart" href="cart">корзина</a>
+        <div class="mobile-h-wrapper">
+            <header class="header">
+                <a class="header__logo" href="index.html">
+                    <img src="/img/1.svg" alt="logo"/>
+                </a>
+                <a class="t11r header__cart-hidden" href="cart.html">корзина</a>
+            </header>
+            <a class="t11r header__cart" href="cart.html">корзина</a>
+        </div>
     </section>
 
     <section class="cart">
         <div class="container">
             <div class="cart__wrapper">
 
-                <div class="cart__title t22m">корзина</div>
+                <div class="cart__sticky"><div class="cart__title t22m">корзина</div></div>
 
                 <div class="cart__items">
 
                     <div class="cart-item">
-                        <img src="img/model.jpg" alt="">
+                        <img class="cart-item__img" src="img/model.jpg" alt="">
                         <div class="cart-item__text">
                             <div class="cart-item__title t22m">пуховик №1002</div>
                             <div class="cart-item__price t18l">32000 руб.</div>
@@ -36,7 +39,7 @@
                     </div>
 
                     <div class="cart-item">
-                        <img src="img/model.jpg" alt="">
+                        <img class="cart-item__img" src="img/model.jpg" alt="">
                         <div class="cart-item__text">
                             <div class="cart-item__title t22m">пуховик №1002</div>
                             <div class="cart-item__price t18l">32000 руб.</div>
@@ -45,7 +48,7 @@
                         <button class="cart-item__close"><img src="img/close-svgrepo-com.svg" alt=""></button>
                     </div>
                     <div class="cart-item">
-                        <img src="img/model.jpg" alt="">
+                        <img class="cart-item__img" src="img/model.jpg" alt="">
                         <div class="cart-item__text">
                             <div class="cart-item__title t22m">пуховик №1002</div>
                             <div class="cart-item__price t18l">32000 руб.</div>
@@ -54,7 +57,7 @@
                         <button class="cart-item__close"><img src="img/close-svgrepo-com.svg" alt=""></button>
                     </div>
                     <div class="cart-item">
-                        <img src="img/model.jpg" alt="">
+                        <img class="cart-item__img" src="img/model.jpg" alt="">
                         <div class="cart-item__text">
                             <div class="cart-item__title t22m">пуховик №1002</div>
                             <div class="cart-item__price t18l">32000 руб.</div>
@@ -65,52 +68,54 @@
 
                 </div>
 
-                <form action="#" class="cart__form">
-                    <label class="text-label t11r">имя
-                        <input required placeholder="Иван" type="text" name="username">
-                    </label>
-                    <label class="text-label t11r">фамилия
-                        <input required placeholder="Иванов" type="text" name="usersurname">
-                    </label>
-                    <label class="text-label t11r">e-mail
-                        <input required placeholder="ivanov_ivan@gmail.com" type="email" name="useremail">
-                    </label>
-                    <label class="text-label t11r">телефон
-                        <input required placeholder="+7 (999) 999-99-99" type="tel" name="usertel">
-                    </label>
-
-                    <div class="t11r cart__way">
-                        способ доставки:
-                    </div>
-
-                    <label class="radio-label t11r l">
-                        <input type="radio" name="delivery"><div></div>ДОСТАВКА СДЭК
-                    </label>
-                    <label class="radio-label t11r l">
-                        <input checked type="radio" name="delivery"><div></div>САМОВЫВОЗ ИЗ МАГАЗИНА
-                    </label>
-                    <label class="radio-label t11r l">
-                        <input type="radio" name="delivery"><div></div>ДОСТАВКА ПОЧТОЙ РОССИИ
-                    </label>
-                    <label class="radio-label t11r l">
-                        <input type="radio" name="delivery"><div></div>курьером в пределах МКАД
-                    </label>
-
-                    <div class="t11r cart__way">
-                        способ оплаты:
-                    </div>
-
-                    <label class="radio-label t11r l">
-                        <input checked type="radio" name="payment"><div></div>ОПЛАТА ОНЛАЙН
-                    </label>
-                    <label class="radio-label t11r l">
-                        <input checked type="radio" name="payment"><div></div>оплата при получении
-                    </label>
-
-                    <div class="cart__total t11r l"><span class="t11r">Итого:</span> 32000 руб.</div>
-
-                    <button class="t11r b">оформить заказ</button>
-                </form>
+                <div class="cart__sticky">
+                    <form action="#" class="cart__form">
+                        <label class="text-label t11r">имя
+                            <input required placeholder="Иван" type="text" name="username">
+                        </label>
+                        <label class="text-label t11r">фамилия
+                            <input required placeholder="Иванов" type="text" name="usersurname">
+                        </label>
+                        <label class="text-label t11r">e-mail
+                            <input required placeholder="ivanov_ivan@gmail.com" type="email" name="useremail">
+                        </label>
+                        <label class="text-label t11r">телефон
+                            <input required placeholder="+7 (999) 999-99-99" type="tel" name="usertel">
+                        </label>
+    
+                        <div class="t11r cart__way">
+                            способ доставки:
+                        </div>
+    
+                        <label class="radio-label t11r l">
+                            <input type="radio" name="delivery"><div></div>ДОСТАВКА СДЭК
+                        </label>
+                        <label class="radio-label t11r l">
+                            <input checked type="radio" name="delivery"><div></div>САМОВЫВОЗ ИЗ МАГАЗИНА
+                        </label>
+                        <label class="radio-label t11r l">
+                            <input type="radio" name="delivery"><div></div>ДОСТАВКА ПОЧТОЙ РОССИИ
+                        </label>
+                        <label class="radio-label t11r l">
+                            <input type="radio" name="delivery"><div></div>курьером в пределах МКАД
+                        </label>
+    
+                        <div class="t11r cart__way">
+                            способ оплаты:
+                        </div>
+    
+                        <label class="radio-label t11r l">
+                            <input checked type="radio" name="payment"><div></div>ОПЛАТА ОНЛАЙН
+                        </label>
+                        <label class="radio-label t11r l">
+                            <input checked type="radio" name="payment"><div></div>оплата при получении
+                        </label>
+    
+                        <div class="cart__total t11r l"><span class="t11r">Итого:</span> 32000 руб.</div>
+    
+                        <button class="t11r b">оформить заказ</button>
+                    </form>
+                </div>
 
             </div>
         </div>
@@ -120,20 +125,12 @@
         <div class="footer-line">
             <div class="footer-line__links">
                 <a href="#"><img src="/img/vk.svg" alt="Vk" /></a>
-                <a href="#">
+                <a href="#" class="n-mr">
                     <img src="/img/telegram.svg" alt="Telegram" />
                 </a>
                 </div>
             <ul class="footer-line__text">
-                <div>
-                    <li>
-                        <a class="t11r t11r__black" href="">*номер телефона*</a>
-                    </li>
-                    <li>
-                        <a class="t11r t11r__black" href="">*почта*</a>
-                    </li>
-                </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">гарантия</a>
                     </li>
@@ -141,7 +138,7 @@
                         <a class="t11r t11r__black" href="">уход</a>
                     </li>
                 </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">возврат</a>
                     </li>
@@ -149,12 +146,20 @@
                         <a class="t11r t11r__black" href="">доставка</a>
                     </li>
                 </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">магазины</a>
                     </li>
                     <li>
                         <a class="t11r t11r__black" href="">вакансии</a>
+                    </li>
+                </div>
+                <div class="footer-line__item new-string">
+                    <li>
+                        <a class="t11r t11r__black" href="">*номер телефона*</a>
+                    </li>
+                    <li>
+                        <a class="t11r t11r__black" href="">*почта*</a>
                     </li>
                 </div>
             </ul>

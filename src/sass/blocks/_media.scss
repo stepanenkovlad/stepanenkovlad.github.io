@@ -25,6 +25,28 @@
             grid-template-rows: 430px auto;
         }
     }
+    .t22m {
+        font-size: 18px;
+    }
+    .t18l {
+        font-size: 17px;
+    }
+    .cart {
+        &__title {
+            font-weight: 450;
+        }
+        &__wrapper {
+            padding-top: 60px;
+        }
+        .text-label {
+            input {
+                width: 240px;
+            }
+        }
+        &-item {
+            height: 330px;
+        }
+    }
 
     .footer {
         height: 120px;
@@ -33,7 +55,7 @@
 
 @media (max-width: 1200px) {
     * {
-        font-size: 10px;
+        font-size: 11px;
     }
     .main {
         padding: 25px 35px 0 35px;
@@ -57,6 +79,41 @@
             grid-template-rows: 380px auto;
         }
     }
+    .cart {
+        &__wrapper {
+            padding: 60px 0 0 0;
+        }
+        .text-label {
+            input {
+                width: 220px;
+                font-size: 1.2em;
+            }
+        }
+        &-item {
+            height: 315px;
+            &__img {
+                width: 220px;
+            }
+            &__text {
+                width: 205px;
+            }
+            &__close {
+                height: 15px;
+                width: 15px;
+            }
+        }
+        &__form {
+            button {
+                font-size: 1em;
+            }
+        }
+    }
+    .t22m {
+        font-size: 16px;
+    }
+    .t18l {
+        font-size: 15px;
+    }
 
     .footer {
         padding: 0 35px;
@@ -69,9 +126,6 @@
 }
 
 @media (max-width: 992px) {
-    * {
-        font-size: 9px;
-    }
     .container {
         width: 100%;
     }
@@ -84,7 +138,18 @@
             grid-template-rows: 350px auto;
         }
     }
-
+    .cart {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__items {
+            margin-top: 30px;
+        }
+        &__form {
+            margin: 10px 0 30px 0;
+        }
+    }
 
     .footer {
         height: 100px;
@@ -146,6 +211,13 @@
         }
         &-card {
             grid-template-rows: 400px auto;
+        }
+    }
+    .cart {
+        .text-label {
+            input {
+                width: 270px;
+            }
         }
     }
 
@@ -214,6 +286,33 @@
         &__wrapper {
             grid-template-columns: auto;
         }
+    }
+    .cart {
+        &__items {
+            width: 100%;
+        }
+        &-item {
+            justify-content: center;
+            height: 220px;
+            &__img {
+                margin-right: 10px;
+                width: 160px;
+            }
+            &__text {
+                width: 130px;
+            }
+            &__close {
+                width: 13px;
+                height: 13px;
+                margin-top: 0;
+            }
+        }
+    }
+    .t22m {
+        font-size: 14px;
+    }
+    .t18l {
+        font-size: 14px;
     }
 
     .footer {

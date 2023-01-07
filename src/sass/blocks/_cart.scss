@@ -4,7 +4,7 @@
         display: flex;
         justify-content: space-between;
         align-content: flex-start;
-        padding-top: 40px;
+        padding: 40px 10px 0 10px;
     }
     &__way {
         margin-top: 10px;
@@ -12,6 +12,8 @@
         font-weight: 500;
     }
     &__form {
+        // position: sticky;
+        // top: 90px;
         button {
             margin-top: 15px;
             background: #D9D9D9;
@@ -33,11 +35,16 @@
             font-weight: 500;
         }
     }
+    &__title {
+        // position: sticky;
+        // top: 90px;
+    }
 
     &-item {
         display: flex;
         margin-bottom: 30px;
-        img {
+        height: 360px;
+        &__img {
             margin-right: 30px;
             width: 240px;
             object-fit: cover;
