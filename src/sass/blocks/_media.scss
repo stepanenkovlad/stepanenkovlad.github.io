@@ -214,11 +214,20 @@
         }
     }
     .cart {
+        &__form {
+            width: 100%;
+            padding: 0 10px;
+        }
         .text-label {
             input {
-                width: 270px;
+                width: 100%;
             }
         }
+        // .text-label {
+        //     input {
+        //         width: 270px;
+        //     }
+        // }
     }
 
     .footer {
@@ -304,7 +313,6 @@
             &__close {
                 width: 13px;
                 height: 13px;
-                margin-top: 0;
             }
         }
     }
