@@ -327,6 +327,10 @@
             .drop {
                 width: 94.5%;
                 overflow: hidden;
+                &__a {
+                    font-size: 1em;
+                    line-height: 1.8;
+                }
             }
         }
     }
