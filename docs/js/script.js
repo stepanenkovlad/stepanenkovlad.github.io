@@ -2,7 +2,8 @@ $(function(){
     $('.item__carousel').slick({
         prevArrow: "<img src='/img/angle-left-svgrepo-com.svg' class='prev' alt='1'>",
         nextArrow: "<img src='/img/angle-right-svgrepo-com.svg' class='next' alt='2'>",
-        waitForAnimate: false
+        waitForAnimate: false,
+        swipeToSlide: true
     })
 
     $('.slct').click(function(){
