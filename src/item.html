@@ -12,12 +12,15 @@
 </head>
 <body>
     <section class="main main__catalog">
-        <header class="header">
-            <a href="index.html">
-                <img src="/img/1.svg" alt="logo" />
-            </a>
-        </header>
-        <a class="t11r header__cart" href="cart.html">корзина</a>
+        <div class="mobile-h-wrapper">
+            <header class="header">
+                <a class="header__logo" href="index.html">
+                    <img src="/img/1.svg" alt="logo"/>
+                </a>
+                <a class="t11r header__cart-hidden" href="cart.html">корзина</a>
+            </header>
+            <a class="t11r header__cart" href="cart.html">корзина</a>
+        </div>
     </section>
     
     <div class="item">
@@ -59,20 +62,12 @@
         <div class="footer-line">
             <div class="footer-line__links">
                 <a href="#"><img src="/img/vk.svg" alt="Vk" /></a>
-                <a href="#">
+                <a href="#" class="n-mr">
                     <img src="/img/telegram.svg" alt="Telegram" />
                 </a>
                 </div>
             <ul class="footer-line__text">
-                <div>
-                    <li>
-                        <a class="t11r t11r__black" href="">*номер телефона*</a>
-                    </li>
-                    <li>
-                        <a class="t11r t11r__black" href="">*почта*</a>
-                    </li>
-                </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">гарантия</a>
                     </li>
@@ -80,7 +75,7 @@
                         <a class="t11r t11r__black" href="">уход</a>
                     </li>
                 </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">возврат</a>
                     </li>
@@ -88,12 +83,20 @@
                         <a class="t11r t11r__black" href="">доставка</a>
                     </li>
                 </div>
-                <div>
+                <div class="footer-line__item">
                     <li>
                         <a class="t11r t11r__black" href="">магазины</a>
                     </li>
                     <li>
                         <a class="t11r t11r__black" href="">вакансии</a>
+                    </li>
+                </div>
+                <div class="footer-line__item new-string">
+                    <li>
+                        <a class="t11r t11r__black" href="">*номер телефона*</a>
+                    </li>
+                    <li>
+                        <a class="t11r t11r__black" href="">*почта*</a>
                     </li>
                 </div>
             </ul>
