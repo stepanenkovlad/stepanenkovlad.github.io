@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StackHelper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <img
+        class="logo"
+        src="img/home.png"
+        onclick="window.location.href='index.html'"
+      />
+      <section class="sphere">
+        <div class="sphere__title">Сфера IT</div>
+        <div class="sphere-choice">
+          <button class="sphere-choice__item" data-action="getId" id="frontend">
+            Frontend
+          </button>
+          <button class="sphere-choice__item" data-action="getId" id="backend">
+            Backend
+          </button>
+          <button class="sphere-choice__item" data-action="getId" id="qa">
+            QA
+          </button>
+          <button class="sphere-choice__item" data-action="getId" id="uiux">
+            UI/UX
+          </button>
+          <button class="sphere-choice__item" data-action="getId" id="mobile">
+            Mobile
+          </button>
+          <button class="sphere-choice__item" data-action="getId" id="devops">
+            Devops
+          </button>
+        </div>
+      </section>
+
+      <section class="lang box" style="display: none">
+        <div class="box__title">язык программирования</div>
+        <div class="lang-choice box-choice"></div>
+      </section>
+
+      <section class="ide box" style="display: none">
+        <div class="box__title sph-lang"></div>
+        <div class="box__title">IDE</div>
+        <div class="ide-choice box-choice"></div>
+      </section>
+
+      <section class="frame box" style="display: none">
+        <div class="box__title">FRAMEWORK</div>
+        <div class="frame-choice box-choice"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
