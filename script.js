@@ -68,7 +68,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/java.jpg",
+        img: "img/java.png",
         ide: [
           {
             title: "intellij",
@@ -105,7 +105,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/java.jpg",
+        img: "img/java.png",
         ide: [
           {
             title: "intellij",
@@ -170,7 +170,7 @@ let dict = [
     items: [
       {
         lang: "kotlin",
-        img: "img/kotlin.jpg",
+        img: "img/kotlin.png",
 
         frame: {
           title: "ktor",
@@ -179,7 +179,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/java.jpg",
+        img: "img/java.png",
         ide: [
           {
             title: "intellij",
@@ -195,7 +195,7 @@ let dict = [
       },
       {
         lang: "swift",
-        img: "img/swift.jpg",
+        img: "img/swift.png",
         ide: {
           title: "xcode",
           img: "img/Xcode.png",
@@ -224,7 +224,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/java.jpg",
+        img: "img/java.png",
         ide: [
           {
             title: "intellij",
