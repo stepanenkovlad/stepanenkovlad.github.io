@@ -105,7 +105,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/Java.jpg",
+        img: "img/java.jpg",
         ide: [
           {
             title: "intellij",
@@ -179,7 +179,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/Java.jpg",
+        img: "img/java.jpg",
         ide: [
           {
             title: "intellij",
@@ -224,7 +224,7 @@ let dict = [
       },
       {
         lang: "java",
-        img: "img/Java.jpg",
+        img: "img/java.jpg",
         ide: [
           {
             title: "intellij",
