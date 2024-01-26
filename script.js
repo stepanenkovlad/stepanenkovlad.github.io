@@ -170,7 +170,7 @@ let dict = [
     items: [
       {
         lang: "kotlin",
-        img: "img/kotlin.png",
+        img: "img/kotlin1.png",
 
         frame: {
           title: "ktor",
@@ -195,7 +195,7 @@ let dict = [
       },
       {
         lang: "swift",
-        img: "img/swift.png",
+        img: "img/swift1.png",
         ide: {
           title: "xcode",
           img: "img/Xcode.png",
