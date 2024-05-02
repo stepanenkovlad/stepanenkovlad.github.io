@@ -20,7 +20,8 @@ let dict = [
         frame: [
           {
             title: "react",
-            img: "img/react.png",
+            img: "img/react_png.png",
+            href: "https://ru.legacy.react_js.org/",
           },
         ],
       },
@@ -43,7 +44,7 @@ let dict = [
         frame: [
           {
             title: "django",
-            img: "img/Django.png",
+            img: "img/Django_png.png",
             href: "https://www.djangoproject.com/download/",
           },
         ],
@@ -55,14 +56,14 @@ let dict = [
           {
             title: "phpstorm",
             img: "img/PhpStorm.jpeg",
-            href: "",
+            href: "https://www.jetbrains.com/ru-ru/phpstorm/",
           },
         ],
         frame: [
           {
             title: "laravel",
-            img: "img/Laravel.png",
-            href: "",
+            img: "img/Laravel_png.png",
+            href: "https://laravel.com/",
           },
         ],
       },
@@ -73,14 +74,14 @@ let dict = [
           {
             title: "intellij",
             img: "img/intelliJ.jpeg",
-            href: "",
+            href: "https://www.jetbrains.com/ru-ru/idea/",
           },
         ],
         frame: [
           {
             title: "spring",
-            img: "img/spring.png",
-            href: "",
+            img: "img/Spring_png.png",
+            href: "https://spring.io/",
           },
         ],
       },
@@ -92,16 +93,20 @@ let dict = [
       {
         lang: "python",
         img: "img/py.png",
-        ide: {
-          title: "pycharm",
-          img: "img/PyCharm.png",
-          href: "",
-        },
-        frame: {
-          title: "django",
-          img: "img/Django.png",
-          href: "",
-        },
+        ide: [
+          {
+            title: "pycharm",
+            img: "img/PyCharm.png",
+            href: "https://www.jetbrains.com/ru-ru/pycharm/",
+          },
+        ],
+        frame: [
+          {
+            title: "django",
+            img: "img/Django_png.png",
+            href: "https://www.djangoproject.com/",
+          },
+        ],
       },
       {
         lang: "java",
@@ -110,30 +115,34 @@ let dict = [
           {
             title: "intellij",
             img: "img/intelliJ.jpeg",
-            href: "",
+            href: "https://www.jetbrains.com/ru-ru/idea/",
           },
         ],
         frame: [
           {
             title: "spring",
-            img: "img/Spring.jpg",
-            href: "",
+            img: "img/Spring_png.png",
+            href: "https://spring.io/",
           },
         ],
       },
       {
         lang: "c#",
         img: "img/ccc.png",
-        ide: {
-          title: "vscode",
-          img: "img/vscode.png",
-          href: "",
-        },
-        biblio: {
-          title: "automapper",
-          img: "img/AutoMapper.jpeg",
-          href: "",
-        },
+        ide: [
+          {
+            title: "vscode",
+            img: "img/vscode.png",
+            href: "https://code.visualstudio.com/",
+          },
+        ],
+        frame: [
+          {
+            title: "automapper",
+            img: "img/AutoMapper.jpeg",
+            href: "https://automapper.org/",
+          },
+        ],
       },
     ],
   },
@@ -143,25 +152,38 @@ let dict = [
       {
         lang: "html",
         img: "img/Html.png",
-        frame: {
-          title: "tailwald",
-          img: "img/tailwald.png",
-          href: "",
-        },
+        ide: [
+          {
+            title: "vscode",
+            img: "img/vscode.png",
+            href: "https://code.visualstudio.com/",
+          },
+        ],
+        frame: [
+          {
+            title: "tailwald",
+            img: "img/tailwald.png",
+            href: "https://tailwindcss.com/",
+          },
+        ],
       },
       {
         lang: "css",
         img: "img/css.png",
-        ide: {
-          title: "vscode",
-          img: "img/vscode.png",
-          href: "",
-        },
-        frame: {
-          title: "bootstrap",
-          img: "img/bootstrap.png",
-          href: "",
-        },
+        ide: [
+          {
+            title: "vscode",
+            img: "img/vscode.png",
+            href: "https://code.visualstudio.com/",
+          },
+        ],
+        frame: [
+          {
+            title: "bootstrap",
+            img: "img/bootstrap.png",
+            href: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+          },
+        ],
       },
     ],
   },
@@ -171,11 +193,20 @@ let dict = [
       {
         lang: "kotlin",
         img: "img/kotlin1.png",
-
-        frame: {
-          title: "ktor",
-          img: "img/ktor.png",
-        },
+        ide: [
+          {
+            title: "vscode",
+            img: "img/vscode.png",
+            href: "https://code.visualstudio.com/",
+          },
+        ],
+        frame: [
+          {
+            title: "ktor",
+            img: "img/ktor.png",
+            href: "https://ktor.io/",
+          },
+        ],
       },
       {
         lang: "java",
@@ -184,26 +215,34 @@ let dict = [
           {
             title: "intellij",
             img: "img/intelliJ.jpeg",
+            href: "https://www.jetbrains.com/ru-ru/idea/",
           },
         ],
         frame: [
           {
             title: "spring",
-            img: "img/Spring.jpg",
+            img: "img/Spring_png.png",
+            href: "https://spring.io/",
           },
         ],
       },
       {
         lang: "swift",
         img: "img/swift1.png",
-        ide: {
-          title: "xcode",
-          img: "img/Xcode.png",
-        },
-        biblio: {
-          title: "alamofire",
-          img: "img/Alamofire.jpeg",
-        },
+        ide: [
+          {
+            title: "xcode",
+            img: "img/Xcode.png",
+            href: "https://developer.apple.com/xcode/",
+          },
+        ],
+        biblio: [
+          {
+            title: "alamofire",
+            img: "img/Alamofire.jpeg",
+            href: "https://github.com/Alamofire/Alamofire",
+          },
+        ],
       },
     ],
   },
@@ -213,14 +252,20 @@ let dict = [
       {
         lang: "python",
         img: "img/py.png",
-        ide: {
-          title: "pycharm",
-          img: "img/PyCharm.png",
-        },
-        frame: {
-          title: "django",
-          img: "img/Django.png",
-        },
+        ide: [
+          {
+            title: "pycharm",
+            img: "img/PyCharm.png",
+            href: "https://www.jetbrains.com/ru-ru/pycharm/",
+          },
+        ],
+        frame: [
+          {
+            title: "django",
+            img: "img/Django_png.png",
+            href: "https://www.djangoproject.com/",
+          },
+        ],
       },
       {
         lang: "java",
@@ -229,12 +274,14 @@ let dict = [
           {
             title: "intellij",
             img: "img/intelliJ.jpeg",
+            href: "https://www.jetbrains.com/ru-ru/idea/",
           },
         ],
         frame: [
           {
             title: "spring",
-            img: "img/Spring.jpg",
+            img: "img/Spring_png.png",
+            href: "https://spring.io/",
           },
         ],
       },
@@ -245,12 +292,14 @@ let dict = [
           {
             title: "VSCode",
             img: "img/vscode.png",
+            href: "https://code.visualstudio.com/",
           },
         ],
         frame: [
           {
             title: "Beego",
             img: "img/Beego.png",
+            href: "https://github.com/beego/beego",
           },
         ],
       },
