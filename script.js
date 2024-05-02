@@ -21,7 +21,7 @@ let dict = [
           {
             title: "react",
             img: "img/react_png.png",
-            href: "https://ru.legacy.react_js.org/",
+            href: "https://ru.legacy.reactjs.org/",
           },
         ],
       },
@@ -162,7 +162,7 @@ let dict = [
         frame: [
           {
             title: "tailwald",
-            img: "img/tailwald.png",
+            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
             href: "https://tailwindcss.com/",
           },
         ],
