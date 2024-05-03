@@ -5,6 +5,8 @@ let dict = [
       {
         lang: "javascript",
         img: "img/js.png",
+        descr:
+          "JavaScript (JS) — это высокоуровневый, интерпретируемый язык программирования, изначально созданный для работы в браузерах и добавления интерактивности на веб-страницы.JavaScript является одним из трёх основных языков веб-разработки, вместе с HTML (язык разметки) и CSS (язык стилей), и широко применяется для создания динамических веб-страниц, веб-приложений и различных видов программного обеспечения. За годы развития JavaScript стал незаменимым инструментом как для фронтенд-разработки (работы с пользовательским интерфейсом), так и для бэкенд-разработки (работы с серверной частью приложений) благодаря платформе Node.js.",
         ide: [
           {
             title: "vscode",
@@ -21,7 +23,7 @@ let dict = [
           {
             title: "react",
             img: "img/react_png.png",
-            href: "https://ru.legacy.reactjs.org/",
+            href: "https://ru.legacy.react_js.org/",
           },
         ],
       },
@@ -34,6 +36,8 @@ let dict = [
       {
         lang: "python",
         img: "img/py.png",
+        descr:
+          "Python — это высокоуровневый, интерпретируемый, объектно-ориентированный язык программирования, который был разработан в конце 1980-х годов и в начале 1990-х годов Гвидо ван Россумом в Нидерландах. Python был создан с упором на читаемость кода и простоту использования, что делает его идеальным выбором для начинающих программистов и позволяет разработчикам работать более эффективно.",
         ide: [
           {
             title: "pycharm",
@@ -52,6 +56,8 @@ let dict = [
       {
         lang: "php",
         img: "img/php.png",
+        descr:
+          "PHP (Hypertext Preprocessor) - это скриптовый язык программирования, который обычно используется для разработки веб-приложений и динамических веб-сайтов. Он был создан в 1994 году Расмусом Лердорфом и начал набирать популярность как средство для создания интерактивных веб-страниц.",
         ide: [
           {
             title: "phpstorm",
@@ -70,6 +76,8 @@ let dict = [
       {
         lang: "java",
         img: "img/java.png",
+        descr:
+          "Java - это высокоуровневый, объектно-ориентированный язык программирования, который был разработан компанией Sun Microsystems (позднее приобретенной компанией Oracle) в начале 1990-х годов. Java изначально создавалась для обеспечения независимости от платформы (Write Once, Run Anywhere), что позволяет программам, написанным на Java, выполняться на любой платформе, поддерживающей виртуальную машину Java (JVM).",
         ide: [
           {
             title: "intellij",
@@ -93,6 +101,8 @@ let dict = [
       {
         lang: "python",
         img: "img/py.png",
+        descr:
+          "Python — это высокоуровневый, интерпретируемый, объектно-ориентированный язык программирования, который был разработан в конце 1980-х годов и в начале 1990-х годов Гвидо ван Россумом в Нидерландах. Python был создан с упором на читаемость кода и простоту использования, что делает его идеальным выбором для начинающих программистов и позволяет разработчикам работать более эффективно.",
         ide: [
           {
             title: "pycharm",
@@ -111,6 +121,8 @@ let dict = [
       {
         lang: "java",
         img: "img/java.png",
+        descr:
+          "Java - это высокоуровневый, объектно-ориентированный язык программирования, который был разработан компанией Sun Microsystems (позднее приобретенной компанией Oracle) в начале 1990-х годов. Java изначально создавалась для обеспечения независимости от платформы (Write Once, Run Anywhere), что позволяет программам, написанным на Java, выполняться на любой платформе, поддерживающей виртуальную машину Java (JVM).",
         ide: [
           {
             title: "intellij",
@@ -129,6 +141,8 @@ let dict = [
       {
         lang: "c#",
         img: "img/ccc.png",
+        descr:
+          "C# (C-Sharp) - это мощный, типобезопасный язык программирования, разработанный компанией Microsoft в 2000 году. C# был разработан как часть платформы .NET Framework и предназначен для создания широкого спектра приложений, включая веб-приложения, приложения для Windows, игры, мобильные приложения и многое другое.",
         ide: [
           {
             title: "vscode",
@@ -152,6 +166,8 @@ let dict = [
       {
         lang: "html",
         img: "img/Html.png",
+        descr:
+          "HTML (HyperText Markup Language) - это стандартизированный язык разметки, используемый для создания и структурирования веб-страниц. Он был разработан в конце 1980-х годов и является основным строительным блоком веб-страниц в Интернете.",
         ide: [
           {
             title: "vscode",
@@ -162,7 +178,7 @@ let dict = [
         frame: [
           {
             title: "tailwald",
-            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
+            img: "img/tailwald.png",
             href: "https://tailwindcss.com/",
           },
         ],
@@ -170,6 +186,8 @@ let dict = [
       {
         lang: "css",
         img: "img/css.png",
+        descr:
+          "CSS (Cascading Style Sheets) - это язык таблиц стилей, который используется для оформления и стилизации веб-страниц, написанных на языке разметки HTML или XML. CSS позволяет разработчикам определять внешний вид элементов на веб-странице, таких как цвета, шрифты, размеры, отступы и расположение.",
         ide: [
           {
             title: "vscode",
@@ -193,6 +211,8 @@ let dict = [
       {
         lang: "kotlin",
         img: "img/kotlin1.png",
+        descr:
+          "Kotlin - это современный, статически типизированный язык программирования, который был разработан компанией JetBrains в 2011 году. Он был создан с целью предложить альтернативу языку Java, обладая при этом совместимостью с существующей Java-инфраструктурой.",
         ide: [
           {
             title: "vscode",
@@ -211,6 +231,8 @@ let dict = [
       {
         lang: "java",
         img: "img/java.png",
+        descr:
+          "Java - это высокоуровневый, объектно-ориентированный язык программирования, который был разработан компанией Sun Microsystems (позднее приобретенной компанией Oracle) в начале 1990-х годов. Java изначально создавалась для обеспечения независимости от платформы (Write Once, Run Anywhere), что позволяет программам, написанным на Java, выполняться на любой платформе, поддерживающей виртуальную машину Java (JVM).",
         ide: [
           {
             title: "intellij",
@@ -229,6 +251,8 @@ let dict = [
       {
         lang: "swift",
         img: "img/swift1.png",
+        descr:
+          "Swift - это мощный и современный язык программирования, разработанный компанией Apple в 2014 году. Он предназначен для разработки приложений под iOS, macOS, watchOS и tvOS, заменяя более ранний язык Objective-C.",
         ide: [
           {
             title: "xcode",
@@ -252,6 +276,8 @@ let dict = [
       {
         lang: "python",
         img: "img/py.png",
+        descr:
+          "Python — это высокоуровневый, интерпретируемый, объектно-ориентированный язык программирования, который был разработан в конце 1980-х годов и в начале 1990-х годов Гвидо ван Россумом в Нидерландах. Python был создан с упором на читаемость кода и простоту использования, что делает его идеальным выбором для начинающих программистов и позволяет разработчикам работать более эффективно.",
         ide: [
           {
             title: "pycharm",
@@ -270,6 +296,8 @@ let dict = [
       {
         lang: "java",
         img: "img/java.png",
+        descr:
+          "Java - это высокоуровневый, объектно-ориентированный язык программирования, который был разработан компанией Sun Microsystems (позднее приобретенной компанией Oracle) в начале 1990-х годов. Java изначально создавалась для обеспечения независимости от платформы (Write Once, Run Anywhere), что позволяет программам, написанным на Java, выполняться на любой платформе, поддерживающей виртуальную машину Java (JVM).",
         ide: [
           {
             title: "intellij",
@@ -288,6 +316,8 @@ let dict = [
       {
         lang: "golang",
         img: "img/golang.png",
+        descr:
+          "Go, также известный как Golang, это открытый и статически типизированный язык программирования, разработанный компанией Google. Он был представлен в 2009 году и был создан с целью предложить простой и эффективный язык программирования для разработки масштабируемых и надежных программных приложений.",
         ide: [
           {
             title: "VSCode",
@@ -310,6 +340,8 @@ let dict = [
 const wrapperSphere = document.querySelector(".sphere-choice");
 const sectionSphere = document.querySelector(".sphere");
 const sectionLang = document.querySelector(".lang");
+const sectionDescr = document.querySelector(".descr");
+let descrText = document.querySelector(".descr__text");
 const langList = document.querySelector(".lang-choice");
 const sectionIde = document.querySelector(".ide");
 const ideList = document.querySelector(".ide-choice");
@@ -347,7 +379,6 @@ function findLang(e) {
 function showLang() {
   sphereEl = dict.filter((el) => el.name == globalSphere);
   sphereEl = sphereEl[0];
-  console.log(sphereEl);
   sphereEl.items.forEach((el) => {
     let resHtml = `<button class="box-choice__item lang-choice__item" data-action="getId" id="${el.lang}">
   <img src="${el.img}" alt="" />
@@ -365,11 +396,12 @@ function showIde(e) {
   }
   sectionIde.style.display = "block";
   sectionLang.style.display = "none";
+  sectionDescr.style.display = "block";
   let text = `${globalSphere}-${globalLang}`;
   bigTitle.insertAdjacentHTML("beforeend", text);
-
   let langEL = sphereEl.items.filter((el) => el.lang == globalLang);
   langEL = langEL[0];
+  descrText.insertAdjacentHTML("beforeend", langEL.descr);
   langEL.ide.forEach((el) => {
     let resHtml = `<button class="box-choice__item">
     <a href=${el.href}>
